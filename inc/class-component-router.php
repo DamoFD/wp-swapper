@@ -11,6 +11,13 @@ use WP_Swapper\Handlers\Buffer_Handler;
 use WP_Swapper\Traits\Bot_Handler;
 use WP_Swapper\Content_Processor;
 
+/**
+* Component Router Class
+* Creates a buffer and initializes the
+* component controllers.
+*
+* @since 0.0.1
+*/
 class Component_Router {
 
     use Bot_Handler;
